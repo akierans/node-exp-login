@@ -1,12 +1,27 @@
 {
   "name": "whatabyte-portal",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a sample website built in Node.js using Express and contains a login form, this is based off the [auth0 tutorial](https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akierans/node-exp-login.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akierans/node-exp-login/issues"
+  },
+  "homepage": "https://github.com/akierans/node-exp-login#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
 }
