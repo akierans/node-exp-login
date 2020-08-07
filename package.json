@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/akierans/node-exp-login#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.12",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
