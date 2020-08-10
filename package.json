@@ -4,7 +4,8 @@
   "description": "This is a sample website built in Node.js using Express and contains a login form, this is based off the [auth0 tutorial](https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/)",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --proxy=localhost:8000 --files='**/*.css, **/*.pug, **/*.js' --ignore=node_modules --reload-delay 5 --no-ui --no-notify"
   },
   "keywords": [],
   "author": "",
