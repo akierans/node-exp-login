@@ -22,6 +22,18 @@
  * Session Configuration
  */
 
+ const session = {
+ 	secret: "LoxodontaElephasMammuthusPalaeoloxodonPrimelephas",
+ 	cookie: {},
+ 	resave: false,
+ 	saveUninitialized: false
+ };
+
+ if (app.get("env") === "production") {
+ 	//Serve secure cookies, requires HTTPS
+ 	session.cookie.secure = true;
+ }
+
   /**
  * Passport Configuration
  */
