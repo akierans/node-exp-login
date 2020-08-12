@@ -18,7 +18,28 @@ Nodemon
 ## Features
 
 ## Installation
+Install nodejs
+Install npm
+Clone the project to a local directory
+```
+git clone https://github.com/akierans/node-exp-login.git
+```
 
 ## Run Instructions
+Once installed run the following
+```
+npm i
+npm run dev
+```
+Unless you have amended any settings you will now be able to access the test site on localhost:8000/
+
+If you want to run with browser-sync to make life easier while developing instead run
+```
+npm run i
+npm run dev
+npm run ui
+```
+Unless you have amended any settings you will now be able to access the test site on localhost:3000/
+As browser-sync only creates a static server, you still need to run the site in nodemon.
 
 ## How to use
