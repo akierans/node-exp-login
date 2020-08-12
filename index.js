@@ -11,6 +11,8 @@
 
  require("dotenv").config();
 
+ const authRouter = require("./auth");
+
  /**
  * App Variables
  */
@@ -81,6 +83,9 @@
  passport.deserializeUser((user, done) => {
  	done(null, user);
  });
+
+ //Router Mounting
+ app.use("/", authRouter);
 
  /**
  * Routes Definitions
